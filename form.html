@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sudarshana Chakra - IT Fest Event Registration</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+    <!-- Main Scene -->
+    <main class="scene" id="scene">
+
+        <!-- Twinkling Stars & Cosmic Nebulae -->
+        <div class="stars-container" id="starsContainer"></div>
+        <div class="background-shape shape-one"></div>
+        <div class="background-shape shape-two"></div>
+        <div class="background-shape shape-three"></div>
+
+        <!-- Materialization Solar Flare & Shockwave -->
+        <div class="solar-flare" id="solarFlare"></div>
+        <div class="shockwave-ring" id="shockwaveRing"></div>
+        <div class="light-beam" id="lightBeam"></div>
+
+        <!-- Continuous Emitting Divine Light Rays towards Registration Form -->
+        <div class="divine-rays-container" id="divineRays">
+            <div class="ray-cone"></div>
+            <div class="ray-line ray-1"></div>
+            <div class="ray-line ray-2"></div>
+            <div class="ray-line ray-3"></div>
+            <div class="ray-line ray-4"></div>
+            <div class="ray-line ray-5"></div>
+            <div class="ray-particles-container" id="rayParticles"></div>
+        </div>
+
+        <!-- Sudarshana Chakra Container -->
+        <div class="sudarshana-container" id="sudarshana">
+
+            <!-- Glowing Outer Aura & Solar Rays -->
+            <div class="chakra-aura"></div>
+            <div class="chakra-flames"></div>
+
+            <!-- Photorealistic Sudarshana Chakra Image Asset -->
+            <div class="chakra-image-wrapper">
+                <div class="chakra-dark-backdrop"></div>
+                <img src="chakra.png" alt="Realistic Sudarshana Chakra" class="chakra-img" id="chakraImg">
+                <div class="chakra-overlay-glow"></div>
+            </div>
+
+            <!-- Floating Energy Particles -->
+            <div class="sparks-container">
+                <span class="spark s1"></span>
+                <span class="spark s2"></span>
+                <span class="spark s3"></span>
+                <span class="spark s4"></span>
+                <span class="spark s5"></span>
+            </div>
+
+        </div>
+
+
+        <!-- Event Registration Card -->
+        <section class="registration-card divine-card" id="registrationCard">
+
+            <!-- Card Header -->
+            <div class="card-header">
+
+                <div class="header-icon">
+                    🏆
+                </div>
+
+                <div>
+                    <h1>Event Registration</h1>
+
+                    <p>
+                        Fill your details to register for IT Fest events
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- Registration Form -->
+            <form id="registrationForm">
+
+                <!-- Select Event Dropdown -->
+                <div class="form-group">
+                    <label for="eventSelect">
+                        Select Event *
+                    </label>
+                    <div class="input-wrapper">
+                        <span class="input-icon">🎯</span>
+                        <select id="eventSelect" name="eventSelect" required>
+                            <option value="">-- Choose an Event --</option>
+                            <option value="IT Quiz">IT Quiz</option>
+                            <option value="IT Manager">IT Manager</option>
+                            <option value="Debate">Debate</option>
+                            <option value="Start up pitch">Start Up Pitch</option>
+                            <option value="Photography">Photography</option>
+                            <option value="Graphical designing">Graphical Designing</option>
+                            <option value="Coding and debugging">Coding and Debugging</option>
+                            <option value="IPL auction">IPL Auction</option>
+                            <option value="Logo designing">Logo Designing</option>
+                            <option value="Treasure hunt">Treasure Hunt</option>
+                            <option value="Decode the evidence (mystry case study)">Decode the Evidence (Mystery Case
+                                Study)</option>
+                            <option value="Bgmi">BGMI</option>
+                            <option value="Free fire">Free Fire</option>
+                            <option value="Typing Marathon">Typing Marathon</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Name of Participant -->
+                <div class="form-group">
+                    <label for="participantName">
+                        Name of Participant *
+                    </label>
+                    <div class="input-wrapper">
+                        <span class="input-icon">👤</span>
+                        <input type="text" id="participantName" name="participantName"
+                            placeholder="Enter participant full name" required>
+                    </div>
+                </div>
+
+                <!-- Contact Details & College Email ID Row -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="contactNumber">
+                            Contact Details *
+                        </label>
+                        <div class="input-wrapper">
+                            <span class="input-icon">📱</span>
+                            <input type="tel" id="contactNumber" name="contactNumber"
+                                placeholder="10-digit mobile number" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="collegeEmail">
+                            College Email ID *
+                        </label>
+                        <div class="input-wrapper">
+                            <span class="input-icon">✉</span>
+                            <input type="email" id="collegeEmail" name="collegeEmail" placeholder="student@college.edu"
+                                required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Year of Study, Class, Section & Roll Number Grid -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="year">
+                            Year *
+                        </label>
+                        <div class="input-wrapper">
+                            <span class="input-icon">🎓</span>
+                            <select id="year" name="year" required>
+                                <option value="">Select Year</option>
+                                <option value="I Year">I Year</option>
+                                <option value="II Year">II Year</option>
+                                <option value="III Year">III Year</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="className">
+                            Class / Course *
+                        </label>
+                        <div class="input-wrapper">
+                            <span class="input-icon">📚</span>
+                            <input type="text" id="className" name="className" placeholder="e.g. BCA" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="section">
+                            Section *
+                        </label>
+                        <div class="input-wrapper">
+                            <span class="input-icon">🏷️</span>
+                            <input type="text" id="section" name="section" placeholder="e.g. A / B" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rollNumber">
+                            Roll Number *
+                        </label>
+                        <div class="input-wrapper">
+                            <span class="input-icon">🆔</span>
+                            <input type="text" id="rollNumber" name="rollNumber" placeholder="e.g. 24BCA001" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Terms -->
+                <div class="terms">
+                    <label>
+                        <input type="checkbox" id="terms" required>
+                        <span>I confirm the above details are accurate for IT Fest event registration</span>
+                    </label>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="register-btn" id="registerBtn">
+                    <span>Confirm Event Registration</span>
+                    <span class="btn-arrow">⚡</span>
+                </button>
+
+            </form>
+
+            <!-- Login -->
+            <div class="login-section">
+                Questions or query?
+                <a href="#">Contact Fest Coordinators</a>
+            </div>
+
+        </section>
+
+
+        <!-- Success Message Modal -->
+        <div class="success-message divine-success" id="successMessage">
+
+            <div class="success-icon">
+                🏆
+            </div>
+
+            <h2>
+                Registration Successful!
+            </h2>
+
+            <div class="success-details" id="successDetails">
+                <p>Welcome participant! Your entry has been registered successfully.</p>
+            </div>
+
+            <button class="register-btn success-btn" id="successResetBtn">
+                Register Another Event
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="form.js"></script>
+
+</body>
+
+</html>

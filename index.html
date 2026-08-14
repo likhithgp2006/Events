@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INSPIRE 2026 - IT Fest Registration & Coordinators</title>
+  <meta name="description" content="Official website for INSPIRE 2026 IT Fest Event Registration and Coordinators.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Glassmorphic Navigation Bar -->
+  <header>
+    <nav class="navbar" id="navbar">
+      <a href="#registration" class="nav-brand">
+        <div class="nav-logo-icon">
+          <i class="fa-solid fa-lightbulb"></i>
+        </div>
+        <div class="nav-title-group">
+          <span class="nav-title">INSPIRE 2026</span>
+        </div>
+      </a>
+
+      <!-- Streamlined Navigation Menu (About & Events removed) -->
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#registration" class="nav-link active">Register</a></li>
+        <li><a href="#contact" class="nav-link">Coordinators</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Sudarshana Chakra Event Registration Scene -->
+  <section class="scene" id="registration">
+
+    <!-- Twinkling Stars & Cosmic Nebulae -->
+    <div class="stars-container" id="starsContainer"></div>
+    <div class="background-shape shape-one"></div>
+    <div class="background-shape shape-two"></div>
+    <div class="background-shape shape-three"></div>
+
+    <!-- Materialization Solar Flare & Shockwave -->
+    <div class="solar-flare" id="solarFlare"></div>
+    <div class="shockwave-ring" id="shockwaveRing"></div>
+    <div class="light-beam" id="lightBeam"></div>
+
+    <!-- Continuous Emitting Divine Light Rays towards Registration Form -->
+    <div class="divine-rays-container" id="divineRays">
+      <div class="ray-cone"></div>
+      <div class="ray-line ray-1"></div>
+      <div class="ray-line ray-2"></div>
+      <div class="ray-line ray-3"></div>
+      <div class="ray-line ray-4"></div>
+      <div class="ray-line ray-5"></div>
+      <div class="ray-particles-container" id="rayParticles"></div>
+    </div>
+
+    <!-- Sudarshana Chakra Container -->
+    <div class="sudarshana-container" id="sudarshana">
+      <!-- Glowing Outer Aura & Solar Rays -->
+      <div class="chakra-aura"></div>
+
+      <!-- Photorealistic Sudarshana Chakra Image Asset -->
+      <div class="chakra-image-wrapper">
+        <div class="chakra-dark-backdrop"></div>
+        <img src="chakra.png" alt="Realistic Sudarshana Chakra" class="chakra-img" id="chakraImg">
+        <div class="chakra-overlay-glow"></div>
+      </div>
+
+      <!-- Floating Energy Particles -->
+      <div class="sparks-container">
+        <span class="spark s1"></span>
+        <span class="spark s2"></span>
+        <span class="spark s3"></span>
+        <span class="spark s4"></span>
+        <span class="spark s5"></span>
+      </div>
+    </div>
+
+    <!-- Event Registration Card -->
+    <div class="registration-card divine-card" id="registrationCard">
+
+      <!-- Card Header -->
+      <div class="card-header">
+        <div class="header-icon">
+          🏆
+        </div>
+        <div>
+          <h1>Event Registration</h1>
+          <p>Fill your details to register for IT Fest events</p>
+        </div>
+      </div>
+
+      <!-- Registration Form -->
+      <form id="registrationForm">
+
+        <!-- Select Event Dropdown -->
+        <div class="form-group">
+          <label for="eventSelect">Select Event *</label>
+          <div class="input-wrapper">
+            <span class="input-icon">🎯</span>
+            <select id="eventSelect" name="eventSelect" required>
+              <option value="">-- Choose an Event --</option>
+              <option value="IT Quiz">IT Quiz</option>
+              <option value="IT Manager">IT Manager</option>
+              <option value="Debate">Debate</option>
+              <option value="Start up pitch">Start Up Pitch</option>
+              <option value="Photography">Photography</option>
+              <option value="Graphical designing">Graphical Designing</option>
+              <option value="Coding and debugging">Coding and Debugging</option>
+              <option value="IPL auction">IPL Auction</option>
+              <option value="Logo designing">Logo Designing</option>
+              <option value="Treasure hunt">Treasure Hunt</option>
+              <option value="Decode the evidence (mystry case study)">Decode the Evidence (Mystery Case Study)</option>
+              <option value="Bgmi">BGMI</option>
+              <option value="Free fire">Free Fire</option>
+              <option value="Typing Marathon">Typing Marathon</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Name of Participant -->
+        <div class="form-group">
+          <label for="participantName">Name of Participant *</label>
+          <div class="input-wrapper">
+            <span class="input-icon">👤</span>
+            <input type="text" id="participantName" name="participantName" placeholder="Enter participant full name"
+              required>
+          </div>
+        </div>
+
+        <!-- Contact Details & College Email ID Row -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="contactNumber">Contact Details *</label>
+            <div class="input-wrapper">
+              <span class="input-icon">📱</span>
+              <input type="tel" id="contactNumber" name="contactNumber" placeholder="10-digit mobile number" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="collegeEmail">College Email ID *</label>
+            <div class="input-wrapper">
+              <span class="input-icon">✉</span>
+              <input type="email" id="collegeEmail" name="collegeEmail" placeholder="student@college.edu" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- Year of Study & Class / Course Row -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="year">Year *</label>
+            <div class="input-wrapper">
+              <span class="input-icon">🎓</span>
+              <select id="year" name="year" required>
+                <option value="">Select Year</option>
+                <option value="I Year">I Year</option>
+                <option value="II Year">II Year</option>
+                <option value="III Year">III Year</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="className">Class / Course *</label>
+            <div class="input-wrapper">
+              <span class="input-icon">📚</span>
+              <input type="text" id="className" name="className" placeholder="e.g. BCA" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section & Roll Number Row -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="section">Section *</label>
+            <div class="input-wrapper">
+              <span class="input-icon">🏷️</span>
+              <input type="text" id="section" name="section" placeholder="e.g. A / B" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="rollNumber">Roll Number *</label>
+            <div class="input-wrapper">
+              <span class="input-icon">🆔</span>
+              <input type="text" id="rollNumber" name="rollNumber" placeholder="e.g. 24BCA001" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- Terms Confirmation -->
+        <div class="terms">
+          <label>
+            <input type="checkbox" id="terms" required>
+            <span>I confirm the above details are accurate for IT Fest event registration</span>
+          </label>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="register-btn" id="registerBtn">
+          <span>Confirm Event Registration</span>
+          <span class="btn-arrow">⚡</span>
+        </button>
+
+      </form>
+
+      <!-- Contact Coordinators Prompt -->
+      <div class="login-section">
+        Questions or query?
+        <a href="#contact">Contact Fest Coordinators</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact Section with 5 Coordinator Cards (2 Faculty + 3 Student) -->
+  <section class="section" id="contact">
+    <div class="section-header">
+      <span class="sanskrit-sub">INSPIRE 2026 ORGANIZERS</span>
+      <h2 class="section-title">Contact <span class="text-gold">Our Coordinators</span></h2>
+      <p style="color: var(--text-muted); max-width: 600px; margin: 0.5rem auto 0;">
+        Reach out to our Faculty and Student Coordinators for event guidelines, inquiries, and assistance.
+      </p>
+      <div class="section-divider">
+        <span class="section-divider-line"></span>
+        <span class="section-divider-symbol">✦</span>
+        <span class="section-divider-line"></span>
+      </div>
+    </div>
+
+    <!-- Coordinators Container -->
+    <div class="coordinators-container">
+
+      <!-- Faculty Coordinators Section -->
+      <div class="category-header">
+        <i class="fa-solid fa-user-tie"></i> Faculty Coordinators
+      </div>
+
+      <div class="coordinators-grid">
+        <!-- Faculty Coordinator 1 -->
+        <div class="coordinator-card">
+          <div class="coordinator-badge faculty-badge">
+            <i class="fa-solid fa-award"></i> Faculty Coordinator
+          </div>
+          <div class="coordinator-avatar faculty-avatar">
+            <img src="assets/suma_n.jpg" alt="Suma N" class="coordinator-photo"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+            <i class="fa-solid fa-user-doctor" style="display:none;"></i>
+          </div>
+          <h3 class="coordinator-name">Suma N</h3>
+          <p class="coordinator-role">Asst. Prof, Dept. of Computer Science</p>
+          <div class="coordinator-details">
+            <a href="tel:+919746445815" class="coordinator-contact-link">
+              <i class="fa-solid fa-phone"></i> +91 97464 45815
+            </a>
+          </div>
+          <div class="coordinator-actions">
+            <a href="tel:+919746445815" class="btn btn-gold btn-sm">
+              <i class="fa-solid fa-phone"></i> Call
+            </a>
+            <a href="https://wa.me/919746445815" target="_blank" rel="noopener noreferrer"
+              class="btn btn-outline btn-sm">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Faculty Coordinator 2 -->
+        <div class="coordinator-card">
+          <div class="coordinator-badge faculty-badge">
+            <i class="fa-solid fa-graduation-cap"></i> Faculty Coordinator
+          </div>
+          <div class="coordinator-avatar faculty-avatar">
+            <img src="assets/prajwal_b.jpg" alt="Prajwal B" class="coordinator-photo"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+            <i class="fa-solid fa-user-graduate" style="display:none;"></i>
+          </div>
+          <h3 class="coordinator-name">Prajwal B</h3>
+          <p class="coordinator-role">Asst. Prof, Dept. of Computer Science</p>
+          <div class="coordinator-details">
+            <a href="tel:+917022228553" class="coordinator-contact-link">
+              <i class="fa-solid fa-phone"></i> +91 70222 28553
+            </a>
+          </div>
+          <div class="coordinator-actions">
+            <a href="tel:+917022228553" class="btn btn-gold btn-sm">
+              <i class="fa-solid fa-phone"></i> Call
+            </a>
+            <a href="https://wa.me/917022228553" target="_blank" rel="noopener noreferrer"
+              class="btn btn-outline btn-sm">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Student Coordinators Section -->
+      <div class="category-header" style="margin-top: 3.5rem;">
+        <i class="fa-solid fa-users"></i> Student Coordinators
+      </div>
+
+      <div class="coordinators-grid">
+        <!-- Student Coordinator 1 (Akash N - Department Captain) -->
+        <div class="coordinator-card">
+          <div class="coordinator-badge student-badge">
+            <i class="fa-solid fa-star"></i> Department Captain
+          </div>
+          <div class="coordinator-avatar student-avatar">
+            <img src="assets/akash_n.jpg" alt="Akash N" class="coordinator-photo"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+            <i class="fa-solid fa-user-astronaut" style="display:none;"></i>
+          </div>
+          <h3 class="coordinator-name">Akash N</h3>
+          <p class="coordinator-role">Department Captain</p>
+          <div class="coordinator-details">
+            <a href="tel:+918105958269" class="coordinator-contact-link">
+              <i class="fa-solid fa-phone"></i> +91 81059 58269
+            </a>
+          </div>
+          <div class="coordinator-actions">
+            <a href="tel:+918105958269" class="btn btn-gold btn-sm">
+              <i class="fa-solid fa-phone"></i> Call
+            </a>
+            <a href="https://wa.me/918105958269" target="_blank" rel="noopener noreferrer"
+              class="btn btn-outline btn-sm">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Student Coordinator 2 (Neha Khanum - Department Captain) -->
+        <div class="coordinator-card">
+          <div class="coordinator-badge student-badge">
+            <i class="fa-solid fa-star"></i> Department Captain
+          </div>
+          <div class="coordinator-avatar student-avatar">
+            <img src="assets/neha_khanum.jpg" alt="Neha Khanum" class="coordinator-photo"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+            <i class="fa-solid fa-user-astronaut" style="display:none;"></i>
+          </div>
+          <h3 class="coordinator-name">Neha Khanum</h3>
+          <p class="coordinator-role">Department Captain</p>
+          <div class="coordinator-details">
+            <a href="tel:+919740433478" class="coordinator-contact-link">
+              <i class="fa-solid fa-phone"></i> +91 97404 33478
+            </a>
+          </div>
+          <div class="coordinator-actions">
+            <a href="tel:+919740433478" class="btn btn-gold btn-sm">
+              <i class="fa-solid fa-phone"></i> Call
+            </a>
+            <a href="https://wa.me/919740433478" target="_blank" rel="noopener noreferrer"
+              class="btn btn-outline btn-sm">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Student Coordinator 3 (Tejas B M - Department Secretary) -->
+        <div class="coordinator-card">
+          <div class="coordinator-badge student-badge">
+            <i class="fa-solid fa-shield-halved"></i> Department Secretary
+          </div>
+          <div class="coordinator-avatar student-avatar">
+            <img src="assets/tejas_bm.jpg" alt="Tejas B M" class="coordinator-photo"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+            <i class="fa-solid fa-user-ninja" style="display:none;"></i>
+          </div>
+          <h3 class="coordinator-name">Tejas B M</h3>
+          <p class="coordinator-role">Department Secretary</p>
+          <div class="coordinator-details">
+            <a href="tel:+917019192897" class="coordinator-contact-link">
+              <i class="fa-solid fa-phone"></i> +91 70191 92897
+            </a>
+          </div>
+          <div class="coordinator-actions">
+            <a href="tel:+917019192897" class="btn btn-gold btn-sm">
+              <i class="fa-solid fa-phone"></i> Call
+            </a>
+            <a href="https://wa.me/917019192897" target="_blank" rel="noopener noreferrer"
+              class="btn btn-outline btn-sm">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Success Message Modal -->
+  <div class="success-message divine-success" id="successMessage">
+    <div class="success-icon">
+      🏆
+    </div>
+    <h2>Registration Successful!</h2>
+    <div class="success-details" id="successDetails">
+      <p>Welcome participant! Your entry has been registered successfully.</p>
+    </div>
+    <button class="register-btn success-btn" id="successResetBtn">
+      Register Another Event
+    </button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+
+      <!-- Footer Grid: About, Quick Links, Registration Desk -->
+      <div class="footer-grid">
+
+        <!-- Column 1: Festival Info -->
+        <div class="footer-col">
+          <div class="nav-brand" style="justify-content: flex-start; margin-bottom: 1rem;">
+            <div class="nav-logo-icon">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <div class="nav-title-group">
+              <span class="nav-title">INSPIRE 2026</span>
+            </div>
+          </div>
+          <p>
+            Where timeless mythological heritage ignites modern intellect. Register for premier IT Fest events and
+            connect with our organizing team.
+          </p>
+        </div>
+
+        <!-- Column 2: Quick Links (Register, Coordinators) -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#registration"><i class="fa-solid fa-chevron-right"
+                  style="font-size: 0.75rem; color: var(--gold-primary);"></i> Register</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-chevron-right"
+                  style="font-size: 0.75rem; color: var(--gold-primary);"></i> Coordinators</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Event Registration Desk -->
+        <div class="footer-col">
+          <h4>Event Registration</h4>
+          <p style="margin-bottom: 1rem;">
+            Have questions about event participation or registration passes? Contact our Student Lead Coordinators.
+          </p>
+          <a href="#contact" class="btn btn-gold btn-sm"
+            style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;">
+            <i class="fa-solid fa-user-pen"></i> Contact Us
+          </a>
+        </div>
+
+      </div>
+
+      <div class="social-links">
+        <a href="https://www.instagram.com/scc_computerscience?igsh=MWxsczR2MTZlbXQ0bA==" target="_blank"
+          rel="noopener noreferrer" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/919746445815" target="_blank" rel="noopener noreferrer" class="social-btn"
+          aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+
+      <p class="footer-quote"
+        style="font-style: italic; color: var(--gold-light); margin-top: 1.2rem; margin-bottom: 0.6rem; font-size: 0.95rem;">
+        "Yato Dharmastato Jayah • Where there is righteousness, there is victory."
+      </p>
+
+      <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.5rem;">
+        &copy; 2026 INSPIRE Festival Committee. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Unified JavaScript File -->
+  <script src="script.js"></script>
+</body>
+
+</html>
